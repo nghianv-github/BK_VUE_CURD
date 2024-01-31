@@ -1,0 +1,19 @@
+src/
+├── assets/           # Tài nguyên như hình ảnh, font chữ, ...
+├── components/       # Các thành phần Vue.js được sử dụng trong ứng dụng
+│   ├── common/       # Các thành phần chung được sử dụng nhiều lần
+│   └── feature1/     # Thành phần liên quan đến tính năng cụ thể
+│       ├── Feature1Component1.vue
+│       └── Feature1Component2.vue
+├── directives/       # Các chỉ thị (directives) tùy chỉnh
+├── hooks/            # Các hooks tùy chỉnh được sử dụng trong ứng dụng
+├── layouts/          # Các layout chung cho trang hoặc trang con
+├── plugins/          # Các plugin của bên thứ ba (Vuetify, Vuex, ...)
+├── router/           # Cấu hình router và các tệp tin liên quan
+├── services/         # Dịch vụ (services) và các API liên quan
+├── store/            # Quản lý trạng thái của ứng dụng (Vuex)
+├── styles/           # Các file CSS hoặc pre-processed styles
+├── utils/            # Các hàm tiện ích và tiện ích khác
+├── views/            # Các trang (views) của ứng dụng
+├── App.vue           # Component chính của ứng dụng
+└── main.js           # Tệp nhập (entry) chính của ứng dụng

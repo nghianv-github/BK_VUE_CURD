@@ -1,0 +1,18 @@
+/* Thêm transition CSS */
+/*.nav-group-sub {*/
+/*    max-height: 0;*/
+/*    overflow: hidden;*/
+/*    transition: max-height 0.3s ease-out; !* Thay đổi thời gian và hàm chuyển động theo ý muốn *!*/
+/*}*/
+
+/*!* Hiển thị menu con khi có class 'show' *!*/
+/*.nav-group-sub.show {*/
+/*    max-height: 500px; !* Giá trị lớn để đảm bảo đủ cao cho nội dung *!*/
+/*    transition: max-height 0.3s ease-out; !* Thay đổi thời gian và hàm chuyển động theo ý muốn *!*/
+
+/*}*/
+/*@media (prefers-reduced-motion: reduce) {*/
+/*    .nav-group-sub {*/
+/*        transition: none*/
+/*    }*/
+/*}*/
