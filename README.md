@@ -1,0 +1,1 @@
+# BK_VUE_CURD
